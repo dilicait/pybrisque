@@ -8,7 +8,7 @@ from scipy.special import gamma
 #import svmutil
 #from svmutil import gen_svm_nodearray
 from libsvm import svmutil
-from libsvm.scm import gen_svm_nodearray
+from libsvm.svmutil import gen_svm_nodearray
 
 from brisque.utilities import root_path
 
