@@ -5,8 +5,10 @@ from ctypes import c_double
 import cv2
 import numpy as np
 from scipy.special import gamma
-import svmutil
-from svmutil import gen_svm_nodearray
+#import svmutil
+#from svmutil import gen_svm_nodearray
+from libsvm import svmutil
+from libsvm.scm import gen_svm_nodearray
 
 from brisque.utilities import root_path
 
